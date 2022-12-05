@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ReversedZ.cpp" />
+    <ClCompile Include="SampleFramework\gl3w.c">
+      <Filter>SampleFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleFramework\sb7.cpp">
+      <Filter>SampleFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleFramework\sb7color.cpp">
+      <Filter>SampleFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleFramework\sb7ktx.cpp">
+      <Filter>SampleFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleFramework\sb7object.cpp">
+      <Filter>SampleFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleFramework\sb7shader.cpp">
+      <Filter>SampleFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleFramework\sb7textoverlay.cpp">
+      <Filter>SampleFramework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SampleFramework">
+      <UniqueIdentifier>{6eb3b6cc-722a-44f5-b57a-4ebe86d0302d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SampleFramework\GL">
+      <UniqueIdentifier>{83e79c71-27f7-4584-b155-b6ed380dbafd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SampleFramework\object.h">
+      <Filter>SampleFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\sb6mfile.h">
+      <Filter>SampleFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\sb7.h">
+      <Filter>SampleFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\sb7color.h">
+      <Filter>SampleFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\sb7ext.h">
+      <Filter>SampleFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\sb7ktx.h">
+      <Filter>SampleFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\sb7textoverlay.h">
+      <Filter>SampleFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\shader.h">
+      <Filter>SampleFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\vmath.h">
+      <Filter>SampleFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\GL\gl3w.h">
+      <Filter>SampleFramework\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\GL\glcorearb.h">
+      <Filter>SampleFramework\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\GL\glext.h">
+      <Filter>SampleFramework\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\GL\glxext.h">
+      <Filter>SampleFramework\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFramework\GL\wglext.h">
+      <Filter>SampleFramework\GL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
